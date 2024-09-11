@@ -1,0 +1,14 @@
+@media screen and (max-width: 575px) {
+    .burger {
+        display: flex;
+    }
+
+    #nav .navbar {
+        display: none;
+    }
+
+    #navmobile.active {
+        left: 0;
+        opacity: 1;
+    }
+}

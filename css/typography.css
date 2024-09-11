@@ -1,0 +1,246 @@
+@import url("./font.css");
+
+* {
+    font-family: 'Space Grotesk';
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 62px;
+    letter-spacing: .6px;
+    word-spacing: 4px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.h2 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: .5px;
+    word-spacing: 3.5px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.h3 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: .4px;
+    word-spacing: 3px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: .3px;
+    word-spacing: 2.5px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.h5 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: .2px;
+    word-spacing: 2px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.h6 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1.4px;
+    word-spacing: 1.5px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    text-wrap: nowrap;
+    text-decoration: none;
+    transition: .15s ease-in-out;
+}
+
+.link:hover,
+.link.active {
+    font-weight: 500;
+    text-decoration: 1px solid underline;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.list .list-item {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .2px;
+    word-spacing: .8px;
+    text-wrap: wrap;
+    transition: .15s ease-in-out;
+}
+
+.underline {
+    text-decoration: 1px solid underline;
+}
+
+.h1.underline {
+    text-decoration: 5px solid underline;
+}
+
+.h2.underline {
+    text-decoration: 4px solid underline;
+}
+
+.h3.underline,
+.h4.underline {
+    text-decoration: 3px solid underline;
+}
+
+.h5.underline {
+    text-decoration: 2px solid underline;
+}
+
+.h6.underline,
+.p.underline {
+    text-decoration: 1px solid underline;
+}
+
+@media screen and (max-width: 768px) {
+    .h1 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+
+    .h2 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+
+    .h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .h4 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .h6 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .p,
+    .link,
+    .list .list-item {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .h4 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .h6 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .h4 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

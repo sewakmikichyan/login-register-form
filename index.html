@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Register Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header id="header">
+        <div class="container">
+
+            <!-- nav -->
+
+            <nav id="nav">
+                <div class="logo-block">
+                    <a href="./index.html" class="logo-link h2">Logo</a>
+                </div>
+                <ul class="navbar">
+                    <li class="navbar-item"><a href="#" class="navbar-link link">Home</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link link">About</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link link">Services</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link link">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <span class="p"></span>
+                    <span class="p"></span>
+                    <span class="p"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- navmobile -->
+
+    <div id="navmobile">
+        <div id="navmobile-header" class="container">
+            <div class="logo-block">
+                <a href="./index.html" class="logo-link h2">Logo</a>
+            </div>
+            <div class="burger">
+                <span class="p"></span>
+                <span class="p"></span>
+                <span class="p"></span>
+            </div>
+        </div>
+        <div id="navmobile-divider" class="container"></div>
+        <div id="navmobile-section">
+            <ul class="navbar">
+                <li class="navbar-item"><a href="#" class="navbar-link link">Home</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link link">About</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link link">Services</a></li>
+                <li class="navbar-item"><a href="#" class="navbar-link link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="main__section">
+        <div id="wrapper">
+            <form action="#" id="login__form" class="form active">
+                <h3 id="login-title" class="h3">Login</h3>
+                <div class="inputs-block">
+                    <input type="email" class="p" placeholder="Email">
+                    <input type="password" class="p" placeholder="Password">
+                </div>
+                <div id="remember-forgot-block">
+                    <label class="remember__label">
+                        <input type="checkbox">
+                        <span>remember me</span>
+                    </label>
+                    <a href="#" class="link">forgot password?</a>
+                </div>
+                <button class="btn">Login</button>
+                <div id="register-link-block" class="account-block">
+                    <p class="p">Don't have an account? </p>
+                    <a href="#" id="register-link" class="link">register</a>
+                </div>
+            </form>
+            <form action="#" id="register__form" class="form">
+                <h3 id="register-title" class="h3">Register</h3>
+                <div class="inputs-block">
+                    <input type="text" class="p" placeholder="Username">
+                    <input type="email" class="p" placeholder="Email">
+                    <input type="password" class="p" placeholder="Password">
+                </div>
+                <label class="remember__label">
+                    <input type="checkbox">
+                    <span>remember me</span>
+                </label>
+                <button class="btn">Register</button>
+                <div id="login-link-block" class="account-block">
+                    <p class="p">Allready have an account? </p>
+                    <a href="#" id="login-link" class="link">login</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
