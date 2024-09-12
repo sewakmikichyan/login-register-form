@@ -22,6 +22,7 @@
     const loginLink = document.getElementById("login-link");
     const loginForm = document.getElementById("login__form");
     const registerForm = document.getElementById("register__form");
+    const inputs = document.querySelectorAll("input.text");
 
     registerLink.addEventListener("click", () => {
         loginForm.classList.remove("active");
@@ -41,6 +42,9 @@
         } else {
             wrapper.style.height = 430 + "px";
         }
+        inputs.forEach(input => {
+            input.value = "";
+        });
     }
 }();
 
