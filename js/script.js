@@ -1,3 +1,5 @@
+console.log("Hello Git :)");
+
 !(function () {
     const burger = document.querySelector("#nav .burger");
     const close = document.querySelector("#navmobile .burger");
